@@ -1,0 +1,345 @@
+body {
+    background: #fff;
+    color: #333;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 14px;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-size: 20px;
+    color: #000;
+    line-height: 24px;
+}
+
+.button {
+    padding: 10px 30px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 14px;
+    font-weight: 700;
+    border: 2px solid #ea1538;
+    border-radius: 35px;
+    background: #ea1538;
+    transition: all 500ms ease;
+    color: #fff;
+}
+
+.button:hover {
+    color: #000;
+    background: transparent;
+    border: 2px solid #ea1538;
+}
+
+.bg-fixed {
+    background-attachment: fixed;
+}
+
+.bg-img {
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+/*Navbar*/
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+}
+
+.topnav a {
+    float: center;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+
+/* Home*/
+
+.home-area {
+    position: relative;
+    color: #fff;
+    text-align: center;
+    background-image: url('back.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.same-height {
+    min-height: 660px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.home-area .text-content h1 {
+    font-size: 80px;
+    color: #202020;
+    margin-bottom: 20px;
+    font-weight: 900;
+    line-height: 1.3;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.home-area .text-content p {
+    margin-bottom: 50px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+/* About */
+
+.about .skill-area {
+    background-image: url('about.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: auto;
+}
+
+.section-title h2 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 1.3;
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.about-content {
+    background-image: url('about.jpg');
+    background-attachment: fixed;
+    background-size: 100%;
+    overflow: auto;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.about-content h2 {
+    font-size: 50px;
+}
+
+.about-image {
+    background-image: url('about.jpg');
+    background-attachment: fixed;
+    background-size: 100%;
+    overflow: auto;
+}
+
+img {
+    border-radius: 50%;
+    border-style: inset;
+    border-width: 0.02em;
+    border-color: #000;
+    float: right;
+    margin-top: 30px;
+    margin-right: 20px;
+    margin bottom: 20px;
+}
+
+.about-content h3 {
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    background-image: url('about.jpg');
+    background-attachment: fixed;
+    background-size: 100%;
+    overflow: auto;
+}
+
+.color-text {
+    color: #ea1538;
+}
+
+
+/*Skills*/
+
+.skill-area {
+    background: transparent;
+    background-image: url('about.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: auto;
+    padding-left: 150px;
+}
+
+.skill-box {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 60px;
+}
+
+.skill-item h4 {
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.progress {
+    height: 3px;
+    background-color: rgba(245, 245, 245, 0.778);
+    width: 70%;
+    height: 0.65em;
+}
+
+.progress-bar {
+    height: 100%;
+    font-size: 12px;
+    line-height: 3px;
+    color: #fff;
+    background-color: #ea1538;
+}
+
+
+/*contact*/
+
+.contact-information {
+    margin-bottom: 25px;
+}
+
+.contact-details i {
+    font-size: 35px;
+    background: transparent;
+    color: #000;
+    margin-right: 25px;
+}
+
+.contact-details h6 {
+    padding-bottom: 5px;
+    font-weight: 800;
+    font-size: 16px;
+    color: #333;
+    padding-top: 8px;
+}
+
+.contact-details p {
+    font-weight: 700;
+    font-size: 15px;
+    color: #505050;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.contact-area .form input,
+.contact-area .form textarea {
+    width: 100%;
+    padding: 10px 20px;
+    color: #000;
+    border: 0;
+    font-size: 15px;
+    padding-left: 15px;
+    background-color: #f7f7f7;
+    font-weight: 600;
+    border-bottom: 2px solid #f0f0f0;
+    background: transparent;
+}
+
+.contact-area .form textarea {
+    max-height: 303px;
+    max-width: 100%;
+}
+
+.form-group {
+    margin-bottom: 25px;
+    margin-left: 350px;
+    width: 50%;
+}
+
+button,
+input,
+textarea {
+    color: #272727;
+}
+
+#contact {
+    background-image: url('contact.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: auto;
+}
+
+
+/* Footer */
+
+.fa {
+    padding-top: 20px;
+    text-align: center;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    width: 303px;
+    background: #3B5998;
+    color: white;
+    float: left;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    width: 303px;
+    color: white;
+    float: left;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    width: 303px;
+    color: white;
+    float: left;
+}
+
+.fa-instagram {
+    background: #125688;
+    width: 303px;
+    color: white;
+    float: left;
+}
+
+.fa-telegram {
+    background: #125688;
+    width: 287px;
+    color: white;
+    float: left;
+}

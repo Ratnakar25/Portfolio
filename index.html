@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Portfolio</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:200,300,400,500,600,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="assets/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+    <!-- Navbar-->
+    <nav>
+        <div class="topnav sticky-top" style="pos ">
+            <ul class="active ">
+                <a style="margin-right: 1100px">Portfolio</a>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </ul>
+        </div>
+        </div>
+    </nav>
+
+
+    <!-- Home Section -->
+    <header id="home" class="home-area same-height ">
+        <div>
+            <div class="text-center text-content">
+                <h1>Hi, I'm Ratnakar!</h1>
+                <p>I'm a student at Chitkara University, pursuing Computer Science engineering.</p>
+                <p>I'm a web designer and front-end developer (in making) with a passion for learning.</p>
+                <a href="#contact" class="button">Get in Touch</a>
+            </div>
+    </header>
+
+    <!-- About  -->
+    <section id="about">
+        <div class="section-title">
+            <h2>About Me</h2>
+        </div>
+        <div class="about about-image">
+            <div class="box">
+                <img src="assets/img.jpg" alt=" img ">
+            </div>
+            <div class="about-content ">
+                <h2>Welcome to <span class="color-text ">My Profile</span></h2>
+                <h3>- It's my pleasure to introduce myself.</h3>
+                <p>Hello i'm <strong class="color-text ">Ratnakar Dhruv Vats</strong>. i'm a student at Chitkara University, Punjab.</p>
+                <br>
+                <h3>My hobbies?</h3>
+                <p>I like to explore new places, play video games, listen to relaxing music.</p>
+                <br>
+                <p><b>Phone:</b> +91 982465234_
+                    <br><b>E-mail:</b> ratnakarvats@gmail.com
+            </div>
+    </section>
+
+    <!-- Skill-->
+    <section class="skill-area ">
+        <h2><b>Some Technical skills</b>
+        </h2>
+        <div class="skill-item ">
+            <div class="skill-info ">
+                <h4>HTML & CSS</h4>
+                <span>30%</span>
+            </div>
+            <div class="progress ">
+                <div class="progress-bar " aria-valuemin="0 " aria-valuemax="70 " aria-valuenow="30 " style="width:30% ">
+                </div>
+            </div>
+        </div>
+        <div class="skill-box ">
+            <div class="skill-item ">
+                <div class="skill-info ">
+                    <h4>C++</h4>
+                    <span>45%</span>
+                </div>
+                <div class="progress ">
+                    <div class="progress-bar " aria-valuemin="0 " aria-valuemax="70 " aria-valuenow="45 " style="width: 45% ">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="skill-box ">
+            <div class="skill-item ">
+                <div class="skill-info ">
+                    <h4>Javascript</h4>
+                    <span>20%</span>
+                </div>
+                <div class="progress ">
+                    <div class="progress-bar " aria-valuemin="0 " aria-valuemax="70 " aria-valuenow="20 " style="width: 20% ">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Contact-->
+    <section id="contact" class="contact-area section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2>Find Me At...</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="contact-details" style="width: 33%; float: left; text-align: center;">
+                    <a class="fa fa-github" href="https://github.com/Ratnakar25" target="_blank" style="font-size: 20px;"></a>
+                    <h6>Github Repo</h6>
+                    <p>@Ratnakar25</p>
+                </div>
+            </div>
+            <div class="contact-details" style="width: 33%; float: left ;text-align: center;">
+                <a class="fa fa-university" href="https://www.chitkara.edu.in/ " target="_blank" style="font-size: 20px;"></a>
+                <h6>Student at</h6>
+                <p>Chitkara University, Punjab</p>
+            </div>
+        </div>
+        <div class="contact-details" style="width: 33%; float: left; text-align: center;">
+            <i class="fa fa-bookmark"></i>
+            <h6>More Projects??</h6>
+            <p>Coming soon....</p>
+        </div>
+
+        <p class="form-message"></p>
+        <br>
+        <form class="contact-form form" id="contact-form" action="m/action_page.php" method="POST">
+            <div class="controls">
+                <div class="row">
+                    <div class="form-group has-error has-danger">
+                        <input id="form_name" type="text" name="name" placeholder="Type Your Name" required="required"> </div>
+                </div>
+                <div class="form-group has-error has-danger">
+                    <input id="form_email" type="email" name="email" placeholder="Type Your Email" required="required"> </div>
+            </div>
+            <div class="form-group has-error has-danger">
+                <input id="form_subject" type="text" name="subject" placeholder="Type Your Subject" required="required"> </div>
+            </div>
+            <div class="form-group">
+                <textarea id="form_message" name="message" placeholder="Type Your Message" rows="4" required="required"></textarea>
+            </div>
+
+            <button type="submit" class="button" data-text="Send Message" style="margin-left: 655px; margin-bottom: 30px;"><span>Send Message</span></button>
+
+        </form>
+
+    </section>
+
+    <!-- Footer -->
+    <section class="footer">
+        <div class="d-flex flex-row">
+            <div class="social ">
+                <a href="https://www.facebook.com/" class="fa fa-facebook" target="_blank"></a>
+                <a href="https://www.instagram.com" class="fa fa-instagram" target="_blank"></a>
+                <a href="https://web.telegram.org/" class="fa fa-telegram" target="_blank"></a>
+                <a href="https://twitter.com/login" class="fa fa-twitter" target="_blank"></a>
+                <a href="https://www.linkedin.com/signup" class="fa fa-linkedin" target="_blank"></a>
+            </div>
+        </div>
+
+
+    </section>
+</body>
+
+</html>
